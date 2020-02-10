@@ -16,8 +16,9 @@
     @return lJSONOK, Boolean, Indica se o Json esta validado de acordo com o Schema informado
     @see (links_or_references)
     /*/
-User Function JSONSVLD(cJsonRec)
+User Function validaJSONSchema(cJsonRec)
 
-    Local lJSONOK := .T.
+    Local lJSONOK   as logical
+    Local cMsg      as char
     
 Return lJSONOK

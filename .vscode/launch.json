@@ -10,6 +10,31 @@
 			"smartclientBin": "C:\\Users\\marco\\OneDrive\\TOTVS\\Smarts\\smart_17\\smartclient.exe",
 			"isMultiSession": true,
 			"enableTableSync": true
+		},
+		{
+			"type": "totvs_language_debug",
+			"request": "launch",
+			"cwb": "${workspaceRoot}",
+			"name": "Smart 17",
+			"smartclientBin": "C:\\Users\\marco\\OneDrive\\TOTVS\\Smarts\\smart_17\\smartclient.exe",
+			"program": "${command:AskForProgramName}",
+			"programArguments": "",
+			"enableMultiThread": false,
+			"enableProfile": false,
+			"isMultiSession": true,
+			"isAccessibilityMode": false,
+			"doNotShowSplash": false,
+			"language": "",
+			"ignoreFiles": true,
+			"enableTableSync": true
 		}
-	]
+	],
+	"lastPrograms": [
+		{
+			"args": [],
+			"label": "u_JSONSVLD",
+			"description": ""
+		}
+	],
+	"lastProgramExecuted": "u_JSONSVLD"
 }
